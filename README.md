@@ -6,3 +6,4 @@ just download the repository using the code button, and unzip it to a usb drive.
 i lowk don't care if you add more files to this
 you could also fork it and make it a game site using vercel or smth else
 do whatever you want ig
+some of them dont work but idc
