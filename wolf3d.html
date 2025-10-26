@@ -1,0 +1,32 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>js-dos Example</title>
+        <style>
+            body { margin: 0; overflow: hidden; }
+            #dos { width: 100vw; height: 100vh; }
+        </style>
+    </head>
+    <body>
+        <div id="dos"></div>
+
+        <!-- Load js-dos from jsDelivr -->
+        <script src="https://cdn.jsdelivr.net/npm/js-dos@7/dist/js-dos.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/js-dos@7/dist/js-dos.css"></script>
+    <script>
+        Dos(document.getElementById("dos"), {
+            // Example: Loading a .zip file
+            // Replace "path/to/your/game.zip" with the actual path to your DOS game .zip
+            // This .zip file can also be hosted on a CDN or your own server
+            wd: "./WOLF3D.zip"
+        }).ready(function (fs, main(["-c", "WOLF3D.exe"]); {
+            // After js-dos is ready, you can interact with the virtual file system (fs)
+            // and run DOS programs (main)
+            // Example: If your game's executable is "GAME.EXE" inside the .zip:
+            // main(["-c", "GAME.EXE"]);
+        });
+    </script>
+    </body>
+    </html>
