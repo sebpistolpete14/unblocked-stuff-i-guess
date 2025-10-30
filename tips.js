@@ -7,6 +7,8 @@
         "put smth here gng",
         "Allan when are you gonna add the details",
         " ''Feel free to fork the project under a'' - Graf Zahl, 2025",
+        "justice for dave",
+        "are you mad, school admins?",
         "uhh yeah this is cool right"
     ];
 
