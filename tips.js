@@ -6,6 +6,7 @@
         "the enterity of hell vs one guy who wins",
         "put smth here gng",
         "Allan when are you gonna add the details",
+        " ''Feel free to fork the project under a'' - Graf Zahl, 2025",
         "uhh yeah this is cool right"
     ];
 
